@@ -15,12 +15,6 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles 'consumer-rules.pro'
-        javaCompileOptions {
-            annotationProcessorOptions {
-                arguments = ["room.schemaLocation":
-                                     "$projectDir/schemas".toString()]
-            }
-        }
     }
 
     buildTypes {
@@ -43,9 +37,7 @@ dependencies {
     implementation "javax.inject:javax.inject:$javaxInjectVersion"
     implementation "com.squareup.retrofit2:retrofit:$retrofit"
     implementation "com.squareup.okhttp3:logging-interceptor:$interceptor"
-    implementation "androidx.room:room-runtime:$room_version"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.2.1"
-    kapt "androidx.room:room-compiler:$room_version"
     testImplementation 'junit:junit:4.12'
     testImplementation "org.mockito:mockito-core:$mockitoCoreVersion"
     testImplementation "org.mockito:mockito-inline:$mockitoInlineVersion"

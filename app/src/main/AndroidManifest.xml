@@ -1,11 +1,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.smile.rick_morty">
+    package="com.smile.personality">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name=".RickMortyApplication"
+        android:name=".PersonalityApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"

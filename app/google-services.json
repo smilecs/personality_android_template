@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "263066866150",
+    "firebase_url": "https://past-3.firebaseio.com",
+    "project_id": "past-3",
+    "storage_bucket": "past-3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263066866150:android:5953e3249c0d6e94698627",
+        "android_client_info": {
+          "package_name": "com.smile.personality"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263066866150-6p7ttg2op26dfl49lpsqomefntvlesj4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNraaLKMaJ9WwMUX8M-TdixGbxiS2S_B0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263066866150-qmk023m91mq0varrmshqvospl9gnuh7f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

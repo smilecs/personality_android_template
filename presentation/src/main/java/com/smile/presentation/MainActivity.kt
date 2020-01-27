@@ -1,13 +1,8 @@
 package com.smile.presentation
 
 import android.os.Bundle
-import com.google.android.material.snackbar.Snackbar
-import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.ViewModelProviders
 import dagger.android.support.DaggerAppCompatActivity
-
 import kotlinx.android.synthetic.main.activity_main.*
-import javax.inject.Inject
 
 class MainActivity : DaggerAppCompatActivity() {
 
